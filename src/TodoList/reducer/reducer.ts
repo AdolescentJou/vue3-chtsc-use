@@ -1,5 +1,5 @@
 import { actions,ListActionTypes } from "./action";
-import { randomString } from "../utils/randomkey";
+import { randomString } from "../../utils/randomkey";
 export interface task {
   id: string;
   value: string;

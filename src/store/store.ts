@@ -1,5 +1,5 @@
 import { applyMiddleware, createStore } from "redux";
-import taskReducer, { state } from "../reducer/reducer";
+import taskReducer, { state } from "../TodoList/reducer/reducer";
 import thunk from "redux-thunk";
 import { combineReducers } from "redux";
 export interface storeType {

@@ -1,12 +1,12 @@
 import React from "react";
 import { Button, Typography } from "antd";
-import { task } from "../reducer/reducer";
+import { task } from "./reducer/reducer";
 import { connect } from "react-redux";
 import {
   createDeleteAction,
   deleteAction,
   deleteTaskAction,
-} from "../reducer/action";
+} from "./reducer/action";
 const { Text } = Typography;
 interface IProps {
   task: task;

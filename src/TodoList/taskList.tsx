@@ -1,5 +1,5 @@
 import React from "react";
-import { task } from "../reducer/reducer";
+import { task } from "./reducer/reducer";
 import { connect } from "react-redux";
 import UndoTask from "./undoTask";
 import FinishTask from "./finishTask";
