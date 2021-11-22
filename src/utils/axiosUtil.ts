@@ -1,6 +1,6 @@
 import { message } from "antd";
 import axios from "axios";
-import { User } from "../axiosTest/reducer/reducer";
+import { User } from "../axiosTodoList/reducer/reducer";
 
 export type Method = "GET" | "POST" | "PUT" | "DELETE";
 export type ResponseType =
